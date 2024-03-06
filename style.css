@@ -1,18 +1,18 @@
 /* Estilos para el encabezado */
 header {
-    border: 2px solid black;
+    border: 2px solid yellow;
     border-radius: 10px;
-    background-color: red; /* Cambia el color de fondo del encabezado a rojo */
-    color: white;
+    background-color: black; /* Cambia el color de fondo del encabezado a rojo */
+    color: goldenrod;
     padding: 20px;
     text-align: center;
 }
 
 /* Estilos para la barra de navegación */
 nav {
-    border: 2px solid black; /* Cambia el borde de la barra de navegación a negro */
-    background-color: red; /* Cambia el color de fondo de la barra de navegación a naranja */
-    color: white; /* Cambia el color del texto de la barra de navegación a blanco */
+    border: 2px solid yellow; /* Cambia el borde de la barra de navegación a negro */
+    background-color: black; /* Cambia el color de fondo de la barra de navegación a naranja */
+    color: goldenrod; /* Cambia el color del texto de la barra de navegación a blanco */
     text-align: center;
     position: relative;
     overflow: hidden; /* Oculta el desbordamiento */
@@ -23,7 +23,7 @@ nav {
 }
 
 nav a {
-    color: #f9f9f9; /* Cambia el color del texto */
+    color: goldenrod; /* Cambia el color del texto */
     text-decoration: none;
     padding: 15px 30px;
     border-radius: 10px; /* Agrega bordes redondeados */
@@ -34,7 +34,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: black; /* Cambia el color de fondo al pasar el cursor */
+    background-color: white; /* Cambia el color de fondo al pasar el cursor */
     transform: translateY(-3px); /* Mueve ligeramente hacia arriba cuando se pasa el cursor */
 }
 
